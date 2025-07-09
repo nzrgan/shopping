@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: #d6d5d5b4;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+}
+
+li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li.bought {
+  color: green;
+}
+
+li.not-bought {
+  color: red;
+}
